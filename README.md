@@ -1,17 +1,21 @@
-# STAREX Blockchain Game
+# STAREX Cross Chain Blockchain Game
 
 Welcome to the STAREX Blockchain Game repository! This project explores the concept of CROSS-CHAIN gaming and aims to provide a unique gaming experience across various blockchain networks.
 
 ## Branches Overview
 
-- **master:** This branch serves as the main hub for information and project overview.
+- **master:** This branch serves as the main hub for overall information and project overview.
 - **klaytn-hackathon:** Submitted for the Klaytn hackathon, featuring both app and contract development.
 
-> ⚠️ **Important Note:** Each branch may have different implementations and results, even if the hackathon duration is the same. Each Hackathons may have different developments, some focusing exclusively on mobile development or contract development. Please review the README in each branch for specific details about the submission.
+> ⚠️ **Important Note:** Each branch may have different implementations and results, even if the hackathon duration is the same. Each Hackathon may have different developments, some focusing exclusively on mobile development or contract development. Please review the README in each branch for specific details about the submission.
+
+**Demo Links:**
+
+- [STAREX Klaytn Hackathon Demo](https://starex-klaytn.vercel.app)
 
 ## Project Overview
 
-STAREX joined hackathons to showcase the concept of CROSS-CHAIN gaming and gain exposure. The project began in early November 2023, with concept exploration and research starting in June 2023.
+STAREX joined multiple hackathons to showcase the concept of CROSS-CHAIN gaming and gain exposure globally. The project began in early November 2023, with concept exploration and the research starting since June 2023.
 
 ### Purpose
 
