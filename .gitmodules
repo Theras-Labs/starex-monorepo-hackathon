@@ -1,0 +1,7 @@
+[submodule "contracts"]
+	path = contracts
+	url = https://github.com/Theras-Labs/starex-contracts-prototype
+	branch = klaytn-hackathon
+[submodule "app"]
+	path = app
+	url = https://github.com/Theras-Labs/starex-app-prototype

@@ -13,21 +13,126 @@ Welcome to the STAREX Blockchain Game repository! This project explores the conc
 
 - [STAREX Klaytn Hackathon Demo](https://starex-klaytn.vercel.app)
 
-## Project Overview
+Introducing STAR-EX, (EXPLORE, EXPEDITION) a groundbreaking CROSS-CHAIN web3 game that combines the thrill of exploration with the excitement of an incremental speed challenge.
 
-STAREX joined multiple hackathons to showcase the concept of CROSS-CHAIN gaming and gain exposure globally. The project began in early November 2023, with concept exploration and the research starting since June 2023.
+_Due to the risk associated with the hackathon, detailed information about the space gameplay is limited and will be given detail on upcoming whitepaper. However, we can share a glimpse of what's to come. The gameplay will feature different dimensions utilizing multiple networks, fostering a unique environment for players._
 
-### Purpose
+This innovative concept encourages NETWORK COLLABORATION, where minority networks stand to gain exposure through in-game interactions and seasonal events. The dynamic in-game economy will be influenced by factors specific to each network, affecting asset values and drop rates. Stay tuned for more exciting details as we navigate the challenges of the hackathon and bring this cosmic adventure to life.
 
-The primary goal is to contribute to the blockchain gaming ecosystem and experiment with cross-chain interactions.
+For Solo Exploration, players take control of a spaceship on an expedition through space, aptly named "ex" for exploration. Much like the classic Temple Run but now in 360 space with more fun abilities, the game dynamically increases in speed, presenting players with ever-growing challenges to survive.
 
-### Security and Concept Risks
+In this interstellar adventure, players must navigate their spaceship through a cosmic obstacle course, avoiding rocks, monsters, and powerful boss encounters. The longer they last, the faster and more challenging the game becomes. Survival is key, but there's a catch—limited supplies of abilities and energy are essential for prolonged gameplay. Players can discover unique items scattered throughout the in-game space. These items, represented as NFTs (Non-Fungible Tokens), not only grant special abilities but can also be traded in a marketplace, allowing players to turn their in-game achievements into real-world profit. Crafting items is crucial for obtaining the energy needed to activate powerful abilities, providing an additional layer of strategy. The scarcity of these resources adds depth to the gameplay, requiring players to make strategic decisions about when to use their items and abilities.
 
-Due to security and concept risks, caution is advised when exploring or implementing features. Always consider the implications of changes, especially in the context of blockchain technology.
+As the game progresses, Star-Ex evolves beyond its action roots. Players can choose to stake their spaceships as playing the MISSION and rewarding stake, transforming the experience into an idle game. This integration of action and idle gaming mechanics, combined with the NFT marketplace, creates a unique and sustainable gaming ecosystem. This game is actually not just action-arcade but my goal to make it into "Action-Idle RPG" as each spaceship has their own abilities, and some dimension location will be some weakness and strength depending for each spaceship, while it also provide stats that will carry within each NFTs.
 
-### Game-App Development Approach
+## Gameplay Highlights
 
-In anticipation of security concerns for the upcoming publication, the game-app development will be divided into modular tools or packages. This approach allows for showcasing updates in abilities, controls, and other aspects, ensuring continuous progress during the hackathon. The demonstrated modules will be designed for easy integration, providing a plug-and-play experience for future development.
+- **360 Space Exploration:** Experience the classic Temple Run concept in 360 space with additional fun abilities.
+- **Increasing Speed Challenge:** Survive and thrive as the game dynamically increases in speed.
+- **Unique NFT Items:** Discover and collect NFTs representing unique in-game items, granting special abilities and tradable in a marketplace.
+- **Crafting and Strategy:** Craft items crucial for obtaining energy to activate powerful abilities, adding depth and strategy to gameplay.
+- **Action-Idle Integration:** Stake your spaceships, transforming the experience into an idle game with a rewarding stake.
+
+## Action-Idle RPG Experience
+
+STAR-EX goes beyond its action roots, aiming to become an "Action-Idle RPG." Each spaceship has unique abilities, and dimension locations have strengths and weaknesses for each spaceship. Stats carry within the KIP-7 (LSP-8 standard), creating a rich gaming experience.
+
+## Technical Details
+
+**Technology Stack:**
+
+- Frontend: React
+- Graphics: Three.js library with WEBGPU utilization
+- Backend: Node.js for score collection and leaderboard
+- Future: Game-server for PvP gameplay
+
+**Smart Contracts Used:**
+
+- (2x) KIP-7 (LSP-7)
+- (3x) KIP-17 (LSP-8 collection)
+- (1x) KIP-37 (LSP-8 with ID)
+
+**Smart Contract Flow:**
+
+1. Players play and obtain items through in-game exploration.
+2. Backend records the items and provides an EIP712 signature.
+3. Users use the signature to mint their NFTs through the manager contract.
+4. Manager contract validates the signature and allows users to mint.
+
+## Game Development Insights
+
+- The game utilizes React and the Three.js library for enhanced graphics using WEBGPU.
+- Smart contracts include (2x) KIP-7, (3x) KIP-17 collection, and (1x) KIP-37 with ID.
+- Due to a hackathon time limit, contracts are not finalized, but the flow is outlined.
+
+## Gamefi and NFTs
+
+- Spaceships are represented as NFTs.
+- Ticket-NFTs enhance gameplay in high-rate drop dimensions.
+- Seasonal NFT-pass provides auto-tickets at a lower cost.
+- The game is still enjoyable without NFTs, emphasizing a fun and challenging experience.
+
+## Demo Preview
+
+The demo showcases one ability, a single map, and a limited set of features for security reasons. Stay tuned for future updates as the game evolves and becomes ready for a full showdown.
+
+> **Note:** Due to security concerns, the demo showcases limited features, and certain aspects, features, abilities, map, and concept are intentionally kept undisclosed until the full release.
+
+For more information, feedback, or inquiries, please contact our development team.
+
+# Development Milestones
+
+## Past Achievements (November - During Hackathon)
+
+- Lobby interfaces
+- Basic movement game
+- Abilities visual
+- Effects implemented
+- In-game interface
+- Procedural rocks
+- Contracts architecture
+- Contracts integration
+- Shop + inventory prototype open
+
+## Roadmap Next
+
+### App-System
+
+- UI/UX rework interface lobby
+- Backend leaderboard
+- Quests rework
+
+### Gameplay System
+
+- Procedural generator update on obstacle and challenge
+- Map or radar
+- Visual effects
+- Interface in-game
+
+### Blockchain Relation
+
+- Contracts refactor + coverages + completion
+- Contract integration with backend
+- Auction contracts
+- Crafting contracts
+- Staking NFT contracts
+
+## Beta Phase Preparation
+
+- Minting for 1st iteration spaceships (purchase by native tokens)
+
+## Tokenomic Phase
+
+- GEMS launch
+- Staking contract release
+
+## Game Release
+
+- Release game solo
+
+## Next Year Plans
+
+- PvP system
 
 ### Future Plans
 
@@ -37,4 +142,4 @@ This initiative is inspired by games like Warcraft, where user-generated content
 
 ---
 
-**Happy hacking and gaming! 🚀**
+**Happy gaming! 🚀**
