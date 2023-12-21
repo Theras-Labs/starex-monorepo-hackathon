@@ -1,0 +1,7 @@
+[submodule "contracts"]
+	path = contracts
+	url = https://github.com/Theras-Labs/starex-contracts-prototype
+	branch = injective-hackathon
+[submodule "ui"]
+	path = ui
+	url = https://github.com/Theras-Labs/starex-ui
