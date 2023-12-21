@@ -4,14 +4,18 @@ Welcome to the STAREX Blockchain Game repository! This project explores the conc
 
 ## Branches Overview
 
-- **master:** This branch serves as the main hub for overall information and project overview.
-- **klaytn-hackathon:** Submitted for the Klaytn hackathon, featuring both app and contract development.
+- [**master:**](#master) This branch serves as the main hub for overall information and project overview.
+- [**klaytn-hackathon:**](https://github.com/Theras-Labs/starex-monorepo-hackathon/tree/klaytn-hackathon) Submitted for the Klaytn hackathon, featuring both app and contract development.
+- [**injective-hackathon:**](https://github.com/Theras-Labs/starex-monorepo-hackathon/tree/injective-hackathon) Submitted for the Injective hackathon, featuring UI update and contract development.
+- [**viction-hackathon:**](https://github.com/Theras-Labs/starex-monorepo-hackathon/tree/viction-hackathon) Submitted for the Viction hackathon, featuring UI update and contract development.
 
 > ⚠️ **Important Note:** Each branch may have different implementations and results, even if the hackathon duration is the same. Each Hackathon may have different developments, some focusing exclusively on mobile development or contract development. Please review the README in each branch for specific details about the submission.
 
 **Demo Links:**
 
 - [STAREX Klaytn Hackathon Demo](https://starex-klaytn.vercel.app)
+- [STAREX Injective Hackathon Demo](https://starex-demo-crosschain.vercel.app)
+- [STAREX Viction Hackathon Demo](https://starex-demo-crosschain.vercel.app)
 
 ## Project Overview
 
