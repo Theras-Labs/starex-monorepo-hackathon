@@ -1,0 +1,7 @@
+[submodule "contracts"]
+	path = contracts
+	url = https://github.com/Theras-Labs/starex-contracts-prototype.git
+	branch = viction-hackathon
+[submodule "front-ui"]
+	path = front-ui
+	url = https://github.com/Theras-Labs/starex-ui.git
